@@ -11,17 +11,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No Data is Avaliable,"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="18dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="37dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="GetData"
-        android:text="Button"
+        android:text="Get Data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,8 +30,10 @@
         android:id="@+id/lvdata"
         android:layout_width="282dp"
         android:layout_height="445dp"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="94dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datastatus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
